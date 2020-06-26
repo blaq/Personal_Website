@@ -3,6 +3,7 @@ import pic from './Media/my-pic.svg';
 import wou from './Media/wou_logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import { SocialIcon } from 'react-social-icons';
 import './App.css';
 
 function App() {
@@ -15,13 +16,20 @@ function App() {
             <img src={pic} class="pic" alt="picture of myself" />
           </Row>
           <Row>
-            <a href="http://www.linkedin.com/in/blaq">linkedin.com/in/blaq</a>
+            <SocialIcon url="mailto:ethanblaq@gmail.com" bgColor="#c71610" />
+            <p className="social-tag">ethanblaq@gmail.com</p>
           </Row>
           <Row>
-            <a href="http://www.github.com/blaq">github.com/blaq</a>
+            <SocialIcon url="http://www.linkedin.com/in/blaq" />
+            <p className="social-tag">linkedin.com/in/blaq</p>
           </Row>
           <Row>
-            <a href="http://www.twitter.com/buddy_blaq">twitter.com/buddy_blaq</a>
+            <SocialIcon url="http://www.github.com/blaq" bgColor="#03c04a" />
+            <p className="social-tag">github.com/blaq</p>
+          </Row>
+          <Row>
+            <SocialIcon url="http://www.twitter.com/buddy_blaq" />
+            <p className="social-tag">@buddy_blaq</p>
           </Row>
         </Col>
         <Col sm={8}>
@@ -49,7 +57,7 @@ function App() {
                 </p>
               </Col>
               <Col sm={2}>
-                <p>Aspirations</p>
+                <p className="title"><span>Aspirations</span></p>
                 <ul>
                   <li>Adaptive</li>
                   <li>Decisive</li>
@@ -71,7 +79,7 @@ function App() {
             </Row>
             <Row>
               <Col>
-                <h3>Languages</h3>
+                <h3 className="title"><span>Languages</span></h3>
                 <ul>
                   <li>C#</li>
                   <li>Python</li>
@@ -84,7 +92,7 @@ function App() {
                 </ul>
               </Col>
               <Col>
-                <h3>Software</h3>
+                <h3 className="title"><span>Software</span></h3>
                 <ul>
                   <li>GitHub</li>
                   <li>.Net - ASP.NET MVC</li>
@@ -96,7 +104,7 @@ function App() {
                 </ul>
               </Col>
               <Col>
-                <h3>Techniques</h3>
+                <h3 className="title"><span>Techniques</span></h3>
                 <ul>
                   <li>Agile - SCRUM</li>
                   <li>Version Control</li>
@@ -126,7 +134,7 @@ function App() {
                     <a href="http://www.github.com/blaq/Ok_Computer">Github Repo</a>
                   </Col>
                   <Col sm={2}>
-                    <p>Technology</p>
+                    <p className="title"><span>Technology</span></p>
                     <ul>
                       <li>ASP.NET MVC</li>
                       <li>Microsoft Azure</li>
@@ -150,7 +158,7 @@ function App() {
                     <a href="http://www.github.com/blaq/Pablo_Honey">Github Repo</a>
                   </Col>
                   <Col sm={2}>
-                    <p>Technology</p>
+                    <p className="title"><span>Technology</span></p>
                     <ul>
                       <li>React.js</li>
                       <li>Amazon Web Services</li>
@@ -183,7 +191,7 @@ function App() {
             <br></br>
             <Row>
                 <Col>
-                  <h5 align="center">Notable Coursework</h5>
+                  <h5 align="center" className="title"><span>Notable Coursework</span></h5>
                   <Row>
                     <Col sm={6}>
                       <ul>
@@ -222,7 +230,7 @@ function App() {
                     </ul>  
                   </Col>
                   <Col sm={2}>
-                    <p>Period</p>
+                    <p className="title"><span>Period</span></p>
                     <ul>
                       <li>May 2019</li>
                       <li>March 2020</li>
@@ -243,7 +251,6 @@ function App() {
                     </ul>  
                   </Col>
                   <Col sm={2}>
-                    <p>Period</p>
                     <ul>
                       <li>April 2019</li>
                       <li>June 2020</li>
@@ -264,7 +271,7 @@ function App() {
                     </ul>  
                   </Col>
                   <Col sm={2}>
-                    <p>Period</p>
+                    <p className="title"><span>Period</span></p>
                     <ul>
                       <li>Sept 2016</li>
                       <li>Jan 2020</li>
