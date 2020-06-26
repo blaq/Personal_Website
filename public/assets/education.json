@@ -1,0 +1,28 @@
+{
+	"university": "Western Oregon University",
+    "university_short": "WOU",
+    "university_link": "wou.edu",
+	"degree": "Bachelor of Science",
+	"major": "Computer Science",
+    "minor": "Mathematics",
+    "graduated": "June 2020",
+    "courses": [
+                "Blockchain Tech & Cryptocurrency",
+                "Concurrent Systems",
+                "Data Mining & Data Warehouse",
+                "Information Management",
+                "Microservice Architecture",
+                "Number Theory"
+    ],
+    "project": {
+        "type": "Capstone Project",
+        "name": "Ok Bracket Manager",
+        "link": "okbrackets-dev.azurewebsites.net/",
+        "logo": "okbrackets-dev.azurewebsites.net/Media/OKsign.png",
+        "description_list": [
+                "A collaborative web application designed to manage multiple tournament brackets for a gaming event.",
+                "Integrated with the Challonge.com API offering additional functionality including match starting, scoring, and algorithmic scheduling",
+                "Built with the ASP.NET web framework, using jQuery for responsive pages, and deployed on Microsoft Azure"
+        ]
+    }
+}
