@@ -1,8 +1,9 @@
 import React from 'react';
-import pic from './my-pic.svg';
-import './App.css';
+import pic from './Media/my-pic.svg';
+import wou from './Media/wou_logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import './App.css';
 
 function App() {
   return (
@@ -24,9 +25,13 @@ function App() {
           </Row>
         </Col>
         <Col sm={8}>
-          <Row>
-            <h1>Ethan Black</h1>
-          </Row>
+          <Container>
+            <Row>
+              <Col>
+                <h1>Ethan Black</h1>
+              </Col>
+            </Row>
+          </Container>
 
           <Container>
             <Row>
@@ -169,13 +174,14 @@ function App() {
                 <h3>Western Oregon Univesity</h3>
                 <h5>Bachelor of Science in Computer Science</h5>
                 <h5>Minor in Mathematics</h5>
+                <h5>Graduated June 2020</h5>
               </Col>
               <Col sm={2}>
-                <p>-WOU PIC-</p>
-                <p>Graduated</p>
-                <p>June 2020</p>
+                <img src={wou} class="wou-logo" alt="WOU Logo" />
               </Col>
-              <Row>
+            </Row>
+            <br></br>
+            <Row>
                 <Col>
                   <h5 align="center">Notable Coursework</h5>
                   <Row>
@@ -195,7 +201,6 @@ function App() {
                     </Col>
                   </Row>
                 </Col>
-              </Row>
             </Row>
           </Container>
 
