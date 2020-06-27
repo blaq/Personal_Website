@@ -8,6 +8,7 @@ import { SocialIcon } from 'react-social-icons';
 import './App.css';
 
 function App() {
+  document.title = "Ethan Black";
   return (
     <Container>
       <br></br>
@@ -129,12 +130,12 @@ function App() {
             <Row>
               <Col>
                 <Row>
-                <Col>
+                <Col sm={8}>
                   <h3>Ok Bracket Manager</h3>
                   <h5>Western Oregon University - 2020</h5>
                 </Col>
                 <Col sm={2}>
-                  <img src={obm} className="logo" alt="OBM Logo" />
+                  <img src={obm} className="obm-logo" alt="OBM Logo" />
                 </Col>
                 </Row>
                 <Row>
@@ -198,23 +199,20 @@ function App() {
                 <h5>Graduated June 2020</h5>
               </Col>
               <Col sm={2}>
-                <img src={wou} className="logo" alt="WOU Logo" />
+                <img src={wou} className="wou-logo" alt="WOU Logo" />
               </Col>
             </Row>
             <br></br>
             <Row>
                 <Col>
-                  <h5 align="center" className="title"><span>Notable Coursework</span></h5>
+                  <h5 className="title"><span>Notable Coursework</span></h5>
                   <Row>
                     <Col sm={6}>
                       <ul>
                         <li>Blockchain Tech and Cryptocurrency</li>
                         <li>Concurrent Systems</li>
                         <li>Data Mining and Data Warehouse</li>
-                      </ul>
-                    </Col>
-                    <Col sm={6}>
-                      <ul>
+
                         <li>Information Management</li>
                         <li>Microservice Architecture</li>
                         <li>Number Theory</li>
@@ -244,7 +242,6 @@ function App() {
                     </ul>  
                   </Col>
                   <Col sm={2}>
-                    <p className="title"><span>Period</span></p>
                     <ul>
                       <li>May 2019</li>
                       <li>March 2020</li>
@@ -287,7 +284,6 @@ function App() {
                     </ul>  
                   </Col>
                   <Col sm={2}>
-                    <p className="title"><span>Period</span></p>
                     <ul>
                       <li>Sept 2016</li>
                       <li>Jan 2020</li>

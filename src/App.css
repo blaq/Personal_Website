@@ -8,8 +8,12 @@
   border-radius: 25px;
 }
 
-.logo {
+.wou-logo {
   height: 7vmax;
+}
+
+.obm-logo {
+  height: 3.5vmax;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -81,6 +85,10 @@ ul {
 }
 
 .social-tag {
-  margin: 13px;
+  margin: 16px;
   color: #5d5d5d;
+}
+
+.social-icon {
+  margin-top: 3px;
 }
