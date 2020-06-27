@@ -1,6 +1,7 @@
 import React from 'react';
 import pic from './Media/my-pic.svg';
 import obm from './Media/obm_logo.svg';
+import tb from './Media/tb_logo.svg';
 import wou from './Media/wou_logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -60,7 +61,7 @@ function App() {
                 </p>
               </Col>
               <Col sm={2}>
-                <p className="title"><span>Descriptors</span></p>
+                <p className="title"><span>Aspirations</span></p>
                 <ul>
                   <li>Adaptive</li>
                   <li>Decisive</li>
@@ -102,7 +103,7 @@ function App() {
                   <li>.Net - ASP.NET MVC</li>
                   <li>Microsoft Azure</li>
                   <li>Amazon Web Services</li>
-                  <li>Microsoft SQL Server Management</li>
+                  <li>Microsoft SQL Server</li>
                   <li>Linux - Ubuntu 18</li>
                   <li>Adobe - Premiere</li>
                 </ul>
@@ -135,7 +136,7 @@ function App() {
                   <h5>Western Oregon University - 2020</h5>
                 </Col>
                 <Col sm={2}>
-                  <img src={obm} className="obm-logo" alt="OBM Logo" />
+                  <img src={obm} className="project-logo" alt="OBM Logo" />
                 </Col>
                 </Row>
                 <Row>
@@ -160,9 +161,16 @@ function App() {
             </Row>
             <br></br>
             <Row>
-              <Col>
+              <Col>                
+                <Row>
+                  <Col sm={8}>
                 <h3>Personal Website</h3>
                 <h5>For Myself - 2020</h5>
+                  </Col>
+                  <Col sm={2}>
+                    <img src={tb} className="project-logo" alt="TB Logo" />
+                  </Col>
+                </Row>
                 <Row>
                   <Col sm={8}>
                     <p>
