@@ -14,32 +14,35 @@ function App() {
     <Container>
       <br></br>
       <Row>
-        <Col sm={4}>
+        <Col>
           <Row>
             <img src={pic} className="pic" alt="picture of myself" />
           </Row>
           <Row>
-            <SocialIcon url="mailto:ethanblaq@gmail.com" bgColor="#c71610" />
-            <p className="social-tag">ethanblaq@gmail.com</p>
-          </Row>
-          <Row>
-            <SocialIcon url="http://www.linkedin.com/in/blaq" />
-            <p className="social-tag">linkedin.com/in/blaq</p>
-          </Row>
-          <Row>
-            <SocialIcon url="http://www.github.com/blaq" bgColor="#03c04a" />
-            <p className="social-tag">github.com/blaq</p>
-          </Row>
-          <Row>
-            <SocialIcon url="http://www.twitter.com/buddy_blaq" />
-            <p className="social-tag">@buddy_blaq</p>
+            <Col className="align-self-baseline item">
+            <Row>
+              <SocialIcon url="mailto:ethanblaq@gmail.com" bgColor="#c71610" />
+              <p className="social-tag text-truncate">ethanblaq@gmail.com</p>
+            </Row>
+            <Row>
+              <SocialIcon url="http://www.linkedin.com/in/blaq" />
+              <p className="social-tag">linkedin.com/in/blaq</p>
+            </Row>
+            <Row>
+              <SocialIcon url="http://www.github.com/blaq" bgColor="#03c04a" />
+              <p className="social-tag">github.com/blaq</p>
+            </Row>
+            <Row>
+              <SocialIcon url="http://www.twitter.com/buddy_blaq" />
+              <p className="social-tag">@buddy_blaq</p>
+            </Row></Col>
           </Row>
         </Col>
         <Col sm={8} id="tabs">
           <Container>
-            <Row>
+            <Row className="d-inline-flex">
               <Col>
-                <h1>Ethan Black</h1>
+                <h1 class="title">Ethan Black</h1>
               </Col>
             </Row>
           </Container>
