@@ -1,5 +1,6 @@
 import React from 'react';
 import pic from './Media/my-pic.svg';
+import obm from './Media/obm_logo.svg';
 import wou from './Media/wou_logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -13,7 +14,7 @@ function App() {
       <Row>
         <Col sm={4}>
           <Row>
-            <img src={pic} class="pic" alt="picture of myself" />
+            <img src={pic} className="pic" alt="picture of myself" />
           </Row>
           <Row>
             <SocialIcon url="mailto:ethanblaq@gmail.com" bgColor="#c71610" />
@@ -40,6 +41,7 @@ function App() {
               </Col>
             </Row>
           </Container>
+          <br></br>
 
           <Container>
             <Row>
@@ -57,19 +59,20 @@ function App() {
                 </p>
               </Col>
               <Col sm={2}>
-                <p className="title"><span>Aspirations</span></p>
+                <p className="title"><span>Descriptors</span></p>
                 <ul>
                   <li>Adaptive</li>
                   <li>Decisive</li>
                   <li>Experimental</li>
-                  <li>Humble</li>
-                  <li>Motivated</li>
-                  <li>Respectful</li>
+                  <li>Humility</li>
+                  <li>Minimal</li>
                   <li>Passionate</li>
+                  <li>Respectful</li>
                 </ul>
               </Col>
             </Row>
           </Container>
+          <br></br>
           
           <Container>
             <Row>
@@ -115,6 +118,7 @@ function App() {
               </Col>
             </Row>
           </Container>
+          <br></br>
 
           <Container>
             <Row>
@@ -124,8 +128,15 @@ function App() {
             </Row>
             <Row>
               <Col>
-                <h3>Ok Bracket Manager</h3>
-                <h5>Western Oregon University - 2020</h5>
+                <Row>
+                <Col>
+                  <h3>Ok Bracket Manager</h3>
+                  <h5>Western Oregon University - 2020</h5>
+                </Col>
+                <Col sm={2}>
+                  <img src={obm} className="logo" alt="OBM Logo" />
+                </Col>
+                </Row>
                 <Row>
                   <Col sm={8}>
                     <p>
@@ -136,8 +147,8 @@ function App() {
                   <Col sm={2}>
                     <p className="title"><span>Technology</span></p>
                     <ul>
-                      <li>ASP.NET MVC</li>
-                      <li>Microsoft Azure</li>
+                      <li>ASP.NET</li>
+                      <li>Azure</li>
                       <li>C#</li>
                       <li>Javascript</li>
                       <li>HTML/CSS</li>
@@ -146,6 +157,7 @@ function App() {
                 </Row>
               </Col>
             </Row>
+            <br></br>
             <Row>
               <Col>
                 <h3>Personal Website</h3>
@@ -161,7 +173,7 @@ function App() {
                     <p className="title"><span>Technology</span></p>
                     <ul>
                       <li>React.js</li>
-                      <li>Amazon Web Services</li>
+                      <li>AWS</li>
                       <li>Javascript</li>
                       <li>HTML/CSS</li>
                     </ul>
@@ -170,6 +182,7 @@ function App() {
               </Col>
             </Row>
           </Container>
+          <br></br>
 
           <Container>
             <Row>
@@ -185,7 +198,7 @@ function App() {
                 <h5>Graduated June 2020</h5>
               </Col>
               <Col sm={2}>
-                <img src={wou} class="wou-logo" alt="WOU Logo" />
+                <img src={wou} className="logo" alt="WOU Logo" />
               </Col>
             </Row>
             <br></br>
@@ -211,6 +224,7 @@ function App() {
                 </Col>
             </Row>
           </Container>
+          <br></br>
 
           <Container>
             <Row>
@@ -239,6 +253,7 @@ function App() {
                 </Row>
               </Col>
             </Row>
+            <br></br>
             <Row>
               <Col>
                 <h3>Digital Media Center Tutor</h3>
@@ -259,6 +274,7 @@ function App() {
                 </Row>
               </Col>
             </Row>
+            <br></br>
             <Row>
               <Col>
                 <h3>Domino’s Delivery Driver</h3>
