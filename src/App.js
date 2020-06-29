@@ -13,6 +13,8 @@ function App() {
   return (
     <Container>
       <br></br>
+      <br></br>
+      <br></br>
       <Row>
         <Col>
           <Row>
@@ -21,19 +23,19 @@ function App() {
           <Row>
             <Col className="align-self-baseline item">
             <Row>
-              <SocialIcon url="mailto:ethanblaq@gmail.com" bgColor="#c71610" />
+              <SocialIcon url="mailto:ethanblaq@gmail.com" bgColor="#c71610" fgColor="#f8f9fb" />
               <p className="social-tag text-truncate">ethanblaq@gmail.com</p>
             </Row>
             <Row>
-              <SocialIcon url="http://www.linkedin.com/in/blaq" />
+              <SocialIcon url="http://www.linkedin.com/in/blaq" fgColor="#f8f9fb" />
               <p className="social-tag">linkedin.com/in/blaq</p>
             </Row>
             <Row>
-              <SocialIcon url="http://www.github.com/blaq" bgColor="#03c04a" />
+              <SocialIcon url="http://www.github.com/blaq" bgColor="#03c04a" fgColor="#f8f9fb" />
               <p className="social-tag">github.com/blaq</p>
             </Row>
             <Row>
-              <SocialIcon url="http://www.twitter.com/buddy_blaq" />
+              <SocialIcon url="http://www.twitter.com/buddy_blaq" fgColor="#f8f9fb" />
               <p className="social-tag">@buddy_blaq</p>
             </Row></Col>
           </Row>
@@ -326,6 +328,8 @@ function App() {
           </div>
         </Col>
       </Row>
+      <br></br>
+      <br></br>
       <br></br>
     </Container>
   );
