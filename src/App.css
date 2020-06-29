@@ -3,10 +3,11 @@
   pointer-events: none;
   border-radius: 25px;
   margin: 10px;
+  margin-right: 0;
 }
 
 .wou-logo {
-  height: 7vmax;
+  max-height: 65%;
 }
 
 .project-logo {
@@ -16,13 +17,22 @@
 body {
   background-repeat: no-repeat;
   background-size: 100% 1200px;
-  background-color: #ffffff;
-  overflow: scroll;
+  background-color: forestgreen;
+  overflow-y: scroll;
+  overflow-x: hidden;
   min-height: 150%;
 }
 
 h1 {
-  font-size: 6.5vmax;
+  font-size: 790.5%;
+  padding-left: 0;
+  padding-right: 0;
+
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 416.6%;
 }
 
 ul {
@@ -68,4 +78,16 @@ ul {
   background-color: white;
   border-radius: 25px;
   margin: 10px;
+  margin-right: 0;
+  margin-left: 5px
+}
+
+.item-name {
+  padding-right: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.item-tabs {
+  padding: 15px;
 }
