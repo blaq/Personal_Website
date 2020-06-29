@@ -16,7 +16,7 @@ function App() {
       <Row>
         <Col>
           <Row>
-            <img src={pic} className="pic" alt="picture of myself" />
+            <img src={require('./Media/my-pic.svg')} className="pic" alt="picture of myself" />
           </Row>
           <Row>
             <Col className="align-self-baseline item">
@@ -56,7 +56,7 @@ function App() {
                 </Col>
               </Row>
               <div id="about" className="collapse" data-parent="#tabs">
-                <Row>
+                <Row className="content">
                   <Col>
                     <p>
                       Professionally, I am a recent graduate that is preparing for an exciting career in technology. My near future goal is to work as a software engineer to learn how to work with others in a professional environment. My far reaching goals are to work with expanding tech such as blockchain, cloud computing, or something that hasn't arrived yet.
@@ -91,7 +91,7 @@ function App() {
                 </Col>
               </Row>
               <div id="skills" className="collapse" data-parent="#tabs">
-                <Row>
+                <Row className="content">
                   <Col lg={4}>
                     <h3 className="title"><span>Languages</span></h3>
                     <ul>
@@ -141,7 +141,7 @@ function App() {
                 </Col>
               </Row>
               <div id="projects" className="collapse" data-parent="#tabs">
-                <Row>
+                <Row className="content">
                   <Col>
                     <Row>
                     <Col>
@@ -216,7 +216,7 @@ function App() {
                 </Col>
               </Row>
               <div id="education" className="collapse" data-parent="#tabs">
-                <Row>
+                <Row className="content">
                   <Col>
                     <h3>Western Oregon Univesity</h3>
                     <h5>Bachelor of Science in Computer Science</h5>
@@ -228,7 +228,7 @@ function App() {
                   </Col>
                 </Row>
                 <br></br>
-                <Row>
+                <Row className="content">
                     <Col>
                       <h5 className="title"><span>Notable Coursework</span></h5>
                       <Row>
@@ -259,7 +259,7 @@ function App() {
                 </Col>
               </Row>
               <div id="experience" className="collapse" data-parent="#tabs">
-                <Row>
+                <Row className="content">
                   <Col>
                     <h3>IT Technician Intern</h3>
                     <h5>Miller Technologies - McMinnville, Oregon</h5>
