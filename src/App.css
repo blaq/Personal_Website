@@ -18,12 +18,12 @@
 body {
   background-image: url('Media/bg.svg');
   background-repeat: no-repeat;
-  background-size: 104%;
+  background-size: 100%;
   background-color: white;
   overflow-y: scroll;
   overflow-x: hidden;
   min-height: 150%;
-  color: #494e51;
+  color: #e8e5af;
 }
 
 h1 {
@@ -79,7 +79,7 @@ ul {
 }
 
 .item {
-  background-color: white;
+  background-color: rgb(0,0,0,.6);
   border-radius: 25px;
   margin: 10px;
   margin-right: 0;
