@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "myFont";
-  src: require(url('Media/Helvetica.ttf'));
-}
-
 body {
   background-image: url('Media/bg.jpg');
   background-repeat: no-repeat;
@@ -11,13 +6,8 @@ body {
   background-color: white;
   overflow-y: scroll;
   overflow-x: hidden;
-}
-
-body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Arial" !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -71,7 +71,7 @@ function App() {
                       Casually, I like to run 5ks and play video games. My fastest 5k time is 16:23 and my favorite video game is Halo Reach. The artists I listen to the most are Radiohead, Portishead, and Bjork. When I have the time, I also programming on my own time. I will learn new languages and software to pride myself with creating something interesting.
                     </p>
                   </Col>
-                  <Col lg={2}>
+                  <Col lg={3}>
                     <p className="title"><span>Aspirations</span></p>
                     <ul>
                       <li>Adaptive</li>
