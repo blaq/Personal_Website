@@ -91,10 +91,12 @@ ul {
   padding-right: 35px;
   padding-left: 25px;
   padding-right: 25px;
+  width: 725px;
 }
 
 .item-tabs {
   padding: 15px;
+  width: 725px;
 }
 
 .content {

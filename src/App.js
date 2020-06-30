@@ -8,8 +8,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import './App.css';
 
+function scroller() {
+  document.getElementsByClassName('show').scrollIntoView();
+}
 
-function App() {  
+function App() {
   return (
     <Container>
       <br></br>
@@ -52,7 +55,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="tabs">
+                  <h2 data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
                     About
                   </h2>
                 </Col>
@@ -87,7 +90,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="tabs">
+                  <h2 data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
                     Skills
                   </h2>
                 </Col>
@@ -137,7 +140,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#projects" role="button" aria-expanded="false" aria-controls="tabs">
+                  <h2 data-toggle="collapse" href="#projects" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
                     Projects
                   </h2>
                 </Col>
@@ -212,7 +215,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#education" role="button" aria-expanded="false" aria-controls="tabs">
+                  <h2 data-toggle="collapse" href="#education" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
                     Education
                   </h2>
                 </Col>
@@ -255,7 +258,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#experience" role="button" aria-expanded="false" aria-controls="tabs">
+                  <h2 data-toggle="collapse" href="#experience" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
                     Experience
                   </h2>
                 </Col>
