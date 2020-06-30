@@ -1,8 +1,8 @@
 import React from 'react';
-import pic from './Media/my_pic.png';
-import obm from './Media/obm_logo.png';
+import pic from './Media/my_pic.jpg';
+import obm from './Media/obm_logo.jpg';
 import tb from './Media/tb_logo.png';
-import wou from './Media/wou_logo.png';
+import wou from './Media/wou_logo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
