@@ -3,9 +3,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import './App.css';
+import picture from './Media/my_pic.jpg';
+import obm_logo from './Media/obm_logo.png';
+import tb_logo from './Media/tb_logo.png';
+import wou_logo from './Media/wou_logo.jpg';
 
 
 function App() {
+  console.log(picture);
+  console.log(obm_logo);
+  console.log(tb_logo);
+  console.log(wou_logo);
   return (
     <Container>
       <br></br>
@@ -14,7 +22,7 @@ function App() {
       <Row>
         <Col>
           <Row>
-            <img src={require('./Media/my_pic.jpg')} className="pic" alt="picture of myself" />
+            <img src={picture} className="pic" alt="picture of myself" />
           </Row>
           <Row>
             <Col className="align-self-baseline item">
@@ -147,7 +155,7 @@ function App() {
                       <h5>Western Oregon University - 2020</h5>
                     </Col>
                     <Col lg={2}>
-                      <img src={require('./Media/obm_logo.jpg')} className="project-logo" alt="OBM Logo" />
+                      <img src={obm_logo} className="project-logo" alt="OBM Logo" />
                     </Col>
                     </Row>
                     <Row>
@@ -179,7 +187,7 @@ function App() {
                     <h5>For Myself - 2020</h5>
                       </Col>
                       <Col lg={2}>
-                        <img src={require('./Media/tb_logo.png')} className="project-logo" alt="TB Logo" />
+                        <img src={tb_logo} className="project-logo" alt="TB Logo" />
                       </Col>
                     </Row>
                     <Row>
@@ -222,7 +230,7 @@ function App() {
                     <h5>Graduated June 2020</h5>
                   </Col>
                   <Col md={4}>
-                    <img src={require('./Media/wou_logo.jpg')} className="wou-logo" alt="WOU Logo" />
+                    <img src={wou_logo} className="wou-logo" alt="WOU Logo" />
                   </Col>
                 </Row>
                 <br></br>
