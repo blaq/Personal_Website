@@ -1,8 +1,4 @@
 import React from 'react';
-import pic from './Media/my_pic.jpg';
-import obm from './Media/obm_logo.jpg';
-import tb from './Media/tb_logo.png';
-import wou from './Media/wou_logo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
@@ -18,7 +14,7 @@ function App() {
       <Row>
         <Col>
           <Row>
-            <img src={pic} className="pic" alt="picture of myself" />
+            <img src={require('./Media/my_pic.jpg')} className="pic" alt="picture of myself" />
           </Row>
           <Row>
             <Col className="align-self-baseline item">
@@ -151,7 +147,7 @@ function App() {
                       <h5>Western Oregon University - 2020</h5>
                     </Col>
                     <Col lg={2}>
-                      <img src={obm} className="project-logo" alt="OBM Logo" />
+                      <img src={require('./Media/obm_logo.jpg')} className="project-logo" alt="OBM Logo" />
                     </Col>
                     </Row>
                     <Row>
@@ -183,7 +179,7 @@ function App() {
                     <h5>For Myself - 2020</h5>
                       </Col>
                       <Col lg={2}>
-                        <img src={tb} className="project-logo" alt="TB Logo" />
+                        <img src={require('./Media/tb_logo.png')} className="project-logo" alt="TB Logo" />
                       </Col>
                     </Row>
                     <Row>
@@ -226,7 +222,7 @@ function App() {
                     <h5>Graduated June 2020</h5>
                   </Col>
                   <Col md={4}>
-                    <img src={wou} className="wou-logo" alt="WOU Logo" />
+                    <img src={require('./Media/wou_logo.jpg')} className="wou-logo" alt="WOU Logo" />
                   </Col>
                 </Row>
                 <br></br>
