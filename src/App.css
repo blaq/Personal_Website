@@ -1,5 +1,6 @@
 .pic {
-  height: 15%;
+  height: 17.75%;
+  width: 96.75%;
   pointer-events: none;
   border-radius: 25px;
   margin: 10px;
@@ -16,7 +17,7 @@
 }
 
 body {
-  background-image: url('Media/bg.svg');
+  background-image: url('Media/bg.png');
   background-repeat: no-repeat;
   background-size: 100vw 200vh;
   background-position: center 25%;
@@ -38,6 +39,11 @@ h1 {
 h2 {
   font-size: 416.6%;
   font-style: italic;
+  color: #D3D3D3;
+}
+
+h2:hover {
+  color: #f8f9fb;
 }
 
 ul {
@@ -110,4 +116,5 @@ a {
 
 a:hover {
   color: #ffa573;
+  text-decoration: none;
 }

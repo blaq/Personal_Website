@@ -1,16 +1,13 @@
 import React from 'react';
-import pic from './Media/my-pic.svg';
-import obm from './Media/obm_logo.svg';
-import tb from './Media/tb_logo.svg';
-import wou from './Media/wou_logo.svg';
+import pic from './Media/my_pic.png';
+import obm from './Media/obm_logo.png';
+import tb from './Media/tb_logo.png';
+import wou from './Media/wou_logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import './App.css';
 
-function scroller() {
-  document.getElementsByClassName('show').scrollIntoView();
-}
 
 function App() {
   return (
@@ -21,7 +18,7 @@ function App() {
       <Row>
         <Col>
           <Row>
-            <img src={require('./Media/my-pic.svg')} className="pic" alt="picture of myself" />
+            <img src={pic} className="pic" alt="picture of myself" />
           </Row>
           <Row>
             <Col className="align-self-baseline item">
@@ -55,7 +52,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
+                  <h2 data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="tabs">
                     About
                   </h2>
                 </Col>
@@ -90,7 +87,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
+                  <h2 data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="tabs">
                     Skills
                   </h2>
                 </Col>
@@ -140,7 +137,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#projects" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
+                  <h2 data-toggle="collapse" href="#projects" role="button" aria-expanded="false" aria-controls="tabs">
                     Projects
                   </h2>
                 </Col>
@@ -215,7 +212,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#education" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
+                  <h2 data-toggle="collapse" href="#education" role="button" aria-expanded="false" aria-controls="tabs">
                     Education
                   </h2>
                 </Col>
@@ -258,7 +255,7 @@ function App() {
             <Container>
               <Row>
                 <Col>
-                  <h2 data-toggle="collapse" href="#experience" role="button" aria-expanded="false" aria-controls="tabs" onClick="scroller();">
+                  <h2 data-toggle="collapse" href="#experience" role="button" aria-expanded="false" aria-controls="tabs">
                     Experience
                   </h2>
                 </Col>
