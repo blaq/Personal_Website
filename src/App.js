@@ -10,10 +10,6 @@ import wou_logo from './Media/wou_logo.jpg';
 
 
 function App() {
-  console.log(picture);
-  console.log(obm_logo);
-  console.log(tb_logo);
-  console.log(wou_logo);
   return (
     <Container>
       <br></br>
@@ -103,10 +99,10 @@ function App() {
                     <ul>
                       <li>C#</li>
                       <li>Python</li>
-                      <li>Javascript - jQuery, Ajax</li>
+                      <li>Javascript, jQuery, Ajax</li>
                       <li>C++</li>
                       <li>C</li>
-                      <li>HTML/CSS - Bootstrap</li>
+                      <li>HTML/CSS, Bootstrap</li>
                       <li>SQL</li>
                       <li>Json</li>
                     </ul>
@@ -115,22 +111,22 @@ function App() {
                     <h3 className="title"><span>Software</span></h3>
                     <ul>
                       <li>GitHub</li>
-                      <li>.Net - ASP.NET MVC</li>
+                      <li>ASP.NET MVC</li>
                       <li>Microsoft Azure</li>
                       <li>Amazon Web Services</li>
                       <li>Microsoft SQL Server</li>
-                      <li>Linux - Ubuntu 18</li>
-                      <li>Adobe - Premiere</li>
+                      <li>Ubuntu 18</li>
+                      <li>Adobe Premiere Pro</li>
                     </ul>
                   </Col>
                   <Col lg={4}>
                     <h3 className="title"><span>Techniques</span></h3>
                     <ul>
-                      <li>Agile - SCRUM</li>
-                      <li>Version Control</li>
+                      <li>Agile, SCRUM</li>
+                      <li>Full Stack Development</li>
                       <li>Cloud Deployment</li>
                       <li>Network Monitoring</li>
-                      <li>Harware - Installation, Servicing</li>
+                      <li>Harware, Maintenance</li>
                     </ul>
                   </Col>
                 </Row>
@@ -193,7 +189,7 @@ function App() {
                     <Row>
                       <Col>
                         <p>
-                          A personal project inteneded to represent my character and technical skills for the professional world as well as learn relevant software tools. This user interface was built with React.js and is deployed using Amazon Web Services Amplify.
+                          A personal project intended to represent my character and technical skills for the professional world as well as learn relevant software tools. This user interface was built with React.js and is deployed using Amazon Web Services Amplify.
                         </p>
                         <a href="http://www.github.com/blaq/Personal_Website">Github Repo</a>
                       </Col>
@@ -240,11 +236,10 @@ function App() {
                       <Row>
                         <Col sm={6}>
                           <ul>
+                            <li>Software Engineering III</li>
+                            <li>Programming Languages</li>
                             <li>Blockchain Tech and Cryptocurrency</li>
                             <li>Concurrent Systems</li>
-                            <li>Data Mining and Data Warehouse</li>
-
-                            <li>Information Management</li>
                             <li>Microservice Architecture</li>
                             <li>Number Theory</li>
                           </ul>
