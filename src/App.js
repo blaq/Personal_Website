@@ -195,7 +195,7 @@ function App() {
                         <p>
                           A personal project inteneded to represent my character and technical skills for the professional world as well as learn relevant software tools. This user interface was built with React.js and is deployed using Amazon Web Services Amplify.
                         </p>
-                        <a href="http://www.github.com/blaq/Pablo_Honey">Github Repo</a>
+                        <a href="http://www.github.com/blaq/Personal_Website">Github Repo</a>
                       </Col>
                       <Col lg={2}>
                         <p className="title"><span>Technology</span></p>
