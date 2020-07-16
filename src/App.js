@@ -64,8 +64,7 @@ function App() {
                       Professionally, I am a recent graduate that is preparing for an exciting career in technology. My near future goal is to work as a software engineer to learn how to work with others in a professional environment. My far reaching goals are to work with expanding tech such as blockchain, cloud computing, or something that hasn't arrived yet.
                     </p>
                     <p>
-                      Casually, I like to run 5ks and play video games. My fastest 5k time is 16:23 and my favorite video game is Halo Reach. The artists I listen to the most are Radiohead, Portishead, and Bjork. When I have the time, I also programming on my own time. I will learn new languages and software to pride myself with creating something interesting.
-                    </p>
+                      Casually, I like to run 5ks and play video games. My fastest 5k time is 16:23 and my favorite video game is Halo Reach. The artists I listen to the most are Radiohead, Portishead, and Bjork. When I have the time, I also enjoy programming projects that are interesting to me.                    </p>
                   </Col>
                   <Col lg={3}>
                     <p className="title"><span>Aspirations</span></p>
